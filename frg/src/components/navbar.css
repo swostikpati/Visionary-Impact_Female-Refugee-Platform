@@ -1,0 +1,30 @@
+/* src/components/Navbar.css */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0c6174;
+  padding: 20px;
+  margin: 0;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-item:hover {
+  background-color: #238aa1;
+}
+
+.first-group-elems .nav-item {
+  margin-right: 40px;
+}
+.login {
+  border: 1px solid white;
+}
