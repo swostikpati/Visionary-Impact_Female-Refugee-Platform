@@ -3,17 +3,40 @@
   width: 100vw;
   min-height: 100vh; /* Changed to min-height to allow more content */
   position: relative; /* Needed if you plan to absolutely position any child elements */
-  /* margin-top: 0; */
   font-family: "Lato";
 }
 
 .home-page .cover-photo {
   width: 99vw;
-  /* height: 100vh; */
-  /* object-fit: cover; */
-  /* object-position: center center;; */
 }
 
+/* Add this new style */
+.home-page .cover-photo-container {
+  position: relative;
+}
+
+.home-page .cover-text {
+  position: absolute;
+  top: 20%; /* Center the text vertically */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, -50%); /* Center the text horizontally */
+  color: white; /* Example text color */
+  font-size: 24px; /* Example font size */
+}
+.home-page .cover-text {
+  text-align: center;
+}
+.home-page .heading {
+  font-size: 50px;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+}
+.home-page .sub-heading {
+  font-size: 30px;
+  color: #000;
+  margin: 20px;
+}
 .home-page .stats {
   color: #000; /* Choose a color that contrasts with your background */
 

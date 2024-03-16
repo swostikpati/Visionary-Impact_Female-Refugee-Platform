@@ -7,8 +7,14 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <div className="home-page">
-      <div>
+      <div className="cover-photo-container">
         <img src={cover} alt="Cover Photo" className="cover-photo" />
+        <div className="cover-text">
+          <p className="heading">
+            <span style={{ color: "#5299AD" }}> New Horizon </span> Hopes
+          </p>
+          <p className="sub-heading">Empowering Female Refugees</p>
+        </div>
       </div>
 
       <section className="stats">
