@@ -1,0 +1,46 @@
+/* This goes in HomePage.css */
+.home-page {
+  width: 100vw;
+  min-height: 100vh; /* Changed to min-height to allow more content */
+  position: relative; /* Needed if you plan to absolutely position any child elements */
+  /* margin-top: 0; */
+  font-family: "Lato";
+}
+
+.home-page .cover-photo {
+  width: 99vw;
+  /* height: 100vh; */
+  /* object-fit: cover; */
+  /* object-position: center center;; */
+}
+
+.home-page .stats {
+  color: #000; /* Choose a color that contrasts with your background */
+
+  height: 500px;
+}
+
+.home-page .num-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.home-page .num-elems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page .num-elems .num {
+  font-size: 70px;
+  margin: 15px 0;
+  color: #0c6174;
+}
+
+.home-page .num-elems .num-text {
+  font-size: 40px;
+  color: #5299ad;
+  margin: 10px 0;
+}
