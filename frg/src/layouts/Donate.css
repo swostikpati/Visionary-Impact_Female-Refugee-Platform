@@ -1,0 +1,11 @@
+.donate-container {
+  position: relative; /* This allows for absolute positioning inside */
+  width: 100vw;
+  height: auto;
+}
+
+.donate-container img {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
