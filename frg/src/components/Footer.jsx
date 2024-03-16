@@ -7,8 +7,8 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>123 Street Name, London, UK</p>
-          <p>Email: contact@example.com</p>
+          <p>New Horizon Hopes, London, UK</p>
+          <p>Email: info@newhorizonhopes.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
         <div className="footer-section">
@@ -36,7 +36,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} Your Company Name | All Rights
+        &copy; {new Date().getFullYear()} New Horizon Hopes | All Rights
         Reserved
       </div>
     </footer>
