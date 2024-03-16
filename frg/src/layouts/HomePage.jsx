@@ -1,6 +1,7 @@
 import React from "react";
 import cover from "../assets/cover-photo.png";
 import "./HomePage.css";
+import Footer from "../components/Footer";
 function HomePage() {
   return (
     <div className="home-page">
@@ -29,6 +30,8 @@ function HomePage() {
         <p>Our Top Sponsors</p>
         <div className="logos"></div>
       </section>
+
+      <Footer />
     </div>
   );
 }
