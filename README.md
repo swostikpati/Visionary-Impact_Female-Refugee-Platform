@@ -10,6 +10,13 @@
 
 ### [Project Presentation Link]()
 
+## Website Demo
+
+https://github.com/swostikpati/Visionary-Impact_Female-Refugee-Platform/assets/67205637/1fe6d084-9de2-4dd1-bafc-7fa2c8843708
+
 ## Figma Demo
 
 https://github.com/swostikpati/Visionary-Impact_Female-Refugee-Platform/assets/67205637/f12a6d0f-4e4f-4393-9f78-e5c1ee666581
+
+## Team
+Swostik Pati,  Daniel Zuyev, Zitao Qi, Ziray Maximilian Lin
