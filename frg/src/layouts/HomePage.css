@@ -17,7 +17,7 @@
 .home-page .stats {
   color: #000; /* Choose a color that contrasts with your background */
 
-  height: 500px;
+  height: 600px;
 }
 
 .home-page .num-container {
@@ -52,6 +52,7 @@
   background-position: center;
   width: 400px;
   height: 400px;
+  border-radius: 5px;
 }
 
 .home-page .mentees {
@@ -60,6 +61,7 @@
   background-position: center;
   width: 400px;
   height: 400px;
+  border-radius: 5px;
 }
 
 .home-page .sponsors {
@@ -68,4 +70,29 @@
   background-position: center;
   width: 400px;
   height: 400px;
+  border-radius: 5px;
+}
+
+.home-page .our-sponsors {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 500px;
+  width: 100%;
+}
+
+.home-page .our-sponsors > p {
+  font-size: 40px;
+  color: #000;
+  margin: 0;
+}
+
+.home-page .our-sponsors .logos {
+  margin-top: 50px;
+  background-image: url("../assets/sponsor_logos.png");
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 500px;
 }

@@ -4,7 +4,10 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <div className="home-page">
-      <img src={cover} alt="Cover Photo" className="cover-photo" />
+      <div>
+        <img src={cover} alt="Cover Photo" className="cover-photo" />
+      </div>
+
       <section className="stats">
         <div className="num-container ">
           <div className="num-elems mentees">
@@ -20,6 +23,11 @@ function HomePage() {
             <p className="num-text">Sponsors</p>
           </div>
         </div>
+      </section>
+
+      <section className="our-sponsors">
+        <p>Our Top Sponsors</p>
+        <div className="logos"></div>
       </section>
     </div>
   );
