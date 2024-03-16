@@ -7,6 +7,7 @@ import HomePage from "./layouts/HomePage.jsx";
 import Blog from "./layouts/Blog.jsx";
 import About from "./layouts/About.jsx";
 import Donate from "./layouts/Donate.jsx";
+import Footer from "./components/Footer.jsx";
 // Import other components
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           {/* Define more routes as needed */}
         </Routes>
+        <Footer />
       </Router>
     </main>
   );

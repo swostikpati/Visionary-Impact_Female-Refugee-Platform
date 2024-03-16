@@ -1,0 +1,80 @@
+.about {
+  font-family: "Lato";
+}
+
+.about section {
+  margin: 0; /* Adds some spacing between sections, adjust as needed */
+}
+
+.about .mission,
+.about .vision {
+  display: flex;
+  align-items: flex-start; /* Centers items vertically */
+}
+
+.about .mission > img,
+.about .vision > img {
+  width: 50%; /* Assigns 50% of the parent div's width to the image */
+  height: 600px;
+  object-fit: cover; /* Adjusts the image's fit within its box without distorting ratios */
+}
+
+.about .mission > div,
+.about .vision > div {
+  width: 50%; /* Assigns 50% of the parent div's width to the text */
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.about .mission > div,
+.about .vision > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.about .mission div > p,
+.about .vision div > p {
+  text-align: justify;
+}
+
+.about .label {
+  font-size: 40px;
+  color: #0c6174;
+  margin: 15px 0;
+}
+
+.about .description {
+  font-size: 20px;
+}
+
+.team .heading {
+  text-align: center;
+  font-size: 40px;
+  color: #0c6174;
+}
+/* Ensure the .team section is not affected by these styles */
+.about .team > div {
+  display: flex;
+  justify-content: space-around; /* Adjusts team members to be spaced evenly, consider flex-wrap for responsiveness */
+}
+
+.about .people > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.about .team > div > div {
+  text-align: center; /* Centers the text within each team member's div */
+}
+
+.about .people > p {
+  font-size: 20px;
+  color: #0c6174;
+  margin: 10px 0;
+}
+
+.about .team {
+  margin-bottom: 30px;
+}
