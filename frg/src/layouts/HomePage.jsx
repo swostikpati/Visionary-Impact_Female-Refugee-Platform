@@ -6,16 +6,16 @@ function HomePage() {
     <div className="home-page">
       <img src={cover} alt="Cover Photo" className="cover-photo" />
       <section className="stats">
-        <div className="num-container">
-          <div className="num-elems">
+        <div className="num-container ">
+          <div className="num-elems mentees">
             <p className="num">2100+</p>
             <p className="num-text">Mentees</p>
           </div>
-          <div className="num-elems">
+          <div className="num-elems mentors">
             <p className="num">150+</p>
             <p className="num-text">Mentors</p>
           </div>
-          <div className="num-elems">
+          <div className="num-elems sponsors">
             <p className="num">60+</p>
             <p className="num-text">Sponsors</p>
           </div>

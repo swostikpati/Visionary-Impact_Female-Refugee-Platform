@@ -31,16 +31,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .home-page .num-elems .num {
-  font-size: 70px;
-  margin: 15px 0;
-  color: #0c6174;
+  font-size: 80px;
+  margin: 10px 0;
+  color: #fff;
 }
 
 .home-page .num-elems .num-text {
-  font-size: 40px;
-  color: #5299ad;
-  margin: 10px 0;
+  font-size: 50px;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.home-page .mentors {
+  background-image: url("../assets/mentors.png");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+
+.home-page .mentees {
+  background-image: url("../assets/mentees.png");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+
+.home-page .sponsors {
+  background-image: url("../assets/sponsors.png");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
 }
